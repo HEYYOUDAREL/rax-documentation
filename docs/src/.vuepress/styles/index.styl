@@ -1,0 +1,144 @@
+/**
+ * Custom Styles here.
+ *
+ * ref：https://v1.vuepress.vuejs.org/config/#index-styl
+ */
+
+
+
+.no-sidebar .footer {
+  padding: 0.7rem 1.5rem;
+  line-height: 2.2rem;
+  position: fixed;
+  height: 3.6rem;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  text-align: center;
+  box-sizing: border-box;
+  border-top: 1px solid #eaecef;
+}
+
+
+.theme-default-content:not(.custom) {
+  max-width: 100%;
+  padding: 0
+}
+
+.navbar {
+  position: fixed;
+  z-index: var(--z-index-navbar);
+  border-bottom: 1px solid #eaecef;
+  padding: 0.7rem 1.5rem 0.7rem 4rem;
+  background: url(/bg-home.png) no-repeat;
+  border: none;
+}
+
+.navbar .home-page {
+  overflow: visible;
+}
+
+@media (min-width: 720px) {
+  .navbar {
+    padding: 0.7rem 1.5rem;
+  }
+}
+
+.nav-links .nav-item {
+  margin-right: 1.5rem;
+}
+
+.nav-links {
+  font-size: 1.1rem;
+  background: var(--c-bg) !important;
+  color: #fff;
+}
+
+.navbar .logo {
+  height: 4rem !important;
+  min-width: 0;
+}
+
+.navbar .links {
+  background-color: var(--c-bg) !important; 
+}
+
+.navbar .site-name {
+  color: #fff !important;
+}
+
+.page {
+  padding-left: 40rem;
+}
+
+.theme-container.page-content {
+  .page {
+    padding-top: 1.5rem;
+    padding-right: 25rem;
+  }
+  h1, h2 {
+    color: #E86E23;
+  }
+}
+
+.page-nav {
+  margin: 0;  
+}
+
+.page-nav .inner {
+  max-width: 740px;  
+}
+
+
+.theme-container.contact-content textarea {
+  width: 20rem;
+  font-family: var(--c-body);
+  font-size: var(--c-body);
+}
+
+.theme-container.contact-content .contact-button {
+  width: 7rem;
+  padding: 10px;
+  border: 1px;
+  border-radius: 5%;
+  background-color: #3eaf7c;
+  color: #fff;
+  font-family: var(--c-body);
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+.theme-container.contact-content .contact-button:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+.footer {
+  padding: 0.7rem 1.5rem;
+  line-height: 2.2rem;
+  position: fixed;
+  height: 3.6rem;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  text-align: center;
+  box-sizing: border-box;
+  border-top: 1px solid #eaecef;
+  overflow: visible;
+}
+
+.theme-container.contact-content aside {
+  overflow: hidden;
+  height: 50.4rem;
+}
+
+.theme-container.contact-content {
+  .page {
+    padding-top: 1.5rem;
+    padding-right: 25rem;
+  }
+  h1, h2 {
+    color: #E86E23;
+  }
+}
