@@ -34,4 +34,4 @@ As this is a dummy website, there is no active contribution process. However, if
 This dummy documentation website is provided under the MIT License. You can use this code as a reference or template for your own projects.
 
 
-Thank you for visiting the Rax Documentation website! If you have any questions or need further assistance, please don't hesitate to contact me. Happy coding!
+*Thank you for visiting the Rax Documentation website! If you have any questions or need further assistance, please don't hesitate to contact me. Happy coding!*
