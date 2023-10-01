@@ -63,5 +63,12 @@ module.exports = {
     ['@vuepress/search', {
       searchMaxSuggestions: 10
     }]
-  ]
+  ],
+
+  configureWebpack: {
+    optimization: {
+      minimize: false
+    }
+  }
+
 }
