@@ -7,7 +7,7 @@
     "name": "Darel Rivas",
     "email": "heyyoudarel@gmail.com"
   },
-  "repository": "https://github.com/HEYYOUDAREL/rax.git/rax-documentation",
+  "repository": "https://github.com/HEYYOUDAREL/rax-documentation",
   "scripts": {
     "dev": "vuepress dev src",
     "build": "vuepress build src",
