@@ -1,7 +1,7 @@
 const { description } = require('../../package')
 
 module.exports = {
-  dest: '../../public',
+  dest: 'dist',
   title: 'RAXWireless CRM',
   description: description,
   head: [
