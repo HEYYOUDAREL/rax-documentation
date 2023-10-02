@@ -2,6 +2,8 @@
 
 Welcome to the Rax Documentation, a simple dummy website created using VuePress. This documentation serves as a sample project for technical documentation support assessment purposes.
 
+[LIVE DEMO](https://rax-documentation.vercel.app/)
+
 ## Getting Started
 
 To explore this dummy documentation website, follow these steps:
